@@ -31,6 +31,7 @@ Having found the kidnappers, Annalyn considers which of the following actions sh
 You have four tasks: to implement the logic for determining if the above actions are available based on the state of the three characters in the forest and whether Annalyn's pet dog is present or not.
 
 1. Check if a fast attack can be made
+   - It returns `true` if a fast attack can be made based on **the state of the knight**. Otherwise, it returns `false`.
 2. Check if the group can be spied upon
 3. Check if the prisoner can be signaled
 4. Check if the prisoner can be freed
