@@ -18,9 +18,8 @@ class AnnalynsInfiltration {
                                           boolean archerIsAwake,
                                           boolean prisonerIsAwake,
                                           boolean petDogIsPresent) {
-        if (petDogIsPresent && !archerIsAwake) return true;
-        return !petDogIsPresent && prisonerIsAwake && !archerIsAwake
-                && !knightIsAwake;
+        return (!petDogIsPresent && prisonerIsAwake && !archerIsAwake
+                && !knightIsAwake) || (petDogIsPresent && !archerIsAwake);
     }
 
 }
