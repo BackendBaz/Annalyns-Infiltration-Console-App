@@ -35,4 +35,5 @@ You have four tasks: to implement the logic for determining if the above actions
 2. Check if the group can be spied upon
    - It returns `true` if the group can be spied upon based on the state of the three characters. Otherwise, it returns `false`.
 3. Check if the prisoner can be signaled
+   - It returns `true` if the prisoner can be signaled based on the state of the two characters. Otherwise, it returns `false`.
 4. Check if the prisoner can be freed

@@ -9,8 +9,9 @@ class AnnalynsInfiltration {
         return knightIsAwake || archerIsAwake || prisonerIsAwake;
     }
 
-    public static boolean canSignalPrisoner(boolean archerIsAwake, boolean prisonerIsAwake) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method");
+    public static boolean canSignalPrisoner(boolean archerIsAwake,
+                                            boolean prisonerIsAwake) {
+        return !archerIsAwake && prisonerIsAwake;
     }
 
     public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent) {
