@@ -37,3 +37,4 @@ You have four tasks: to implement the logic for determining if the above actions
 3. Check if the prisoner can be signaled
    - It returns `true` if the prisoner can be signaled based on the state of the two characters. Otherwise, it returns `false`.
 4. Check if the prisoner can be freed
+   - It returns `true` if the prisoner can be freed based on the state of the three characters and the presence of Annalyn's pet dog. Otherwise, it returns `false`.

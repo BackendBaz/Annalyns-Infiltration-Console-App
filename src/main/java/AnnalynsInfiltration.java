@@ -14,7 +14,13 @@ class AnnalynsInfiltration {
         return !archerIsAwake && prisonerIsAwake;
     }
 
-    public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method");
+    public static boolean canFreePrisoner(boolean knightIsAwake,
+                                          boolean archerIsAwake,
+                                          boolean prisonerIsAwake,
+                                          boolean petDogIsPresent) {
+        if (petDogIsPresent && !archerIsAwake) return true;
+        return !petDogIsPresent && prisonerIsAwake && !archerIsAwake
+                && !knightIsAwake;
     }
+
 }
