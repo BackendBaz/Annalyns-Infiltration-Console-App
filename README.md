@@ -33,5 +33,6 @@ You have four tasks: to implement the logic for determining if the above actions
 1. Check if a fast attack can be made
    - It returns `true` if a fast attack can be made based on **the state of the knight**. Otherwise, it returns `false`.
 2. Check if the group can be spied upon
+   - It returns `true` if the group can be spied upon based on the state of the three characters. Otherwise, it returns `false`.
 3. Check if the prisoner can be signaled
 4. Check if the prisoner can be freed
